@@ -115,20 +115,20 @@ footer{
     background-color: #ffebcdc2;
 }
 
-.header-social-media{
+.footer-social-media{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: right;
 }
-.header-social-media li{
+.footer-social-media li{
     margin: 0 10px 0 10px;
     list-style: none;
 }
-.header-social-media a{
+.footer-social-media a{
     color: rgb(77, 74, 74);
 }
-.header-social-media b{
+.footer-social-media b{
     font-size: 10pt;
 }
 
