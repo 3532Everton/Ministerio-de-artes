@@ -29,7 +29,7 @@ a {
     overflow: hidden;
     background-image: url('../img/img-ministerio/imagem-ministerio-001.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
     background-position: center;
     
 }
@@ -164,4 +164,9 @@ footer{
         margin-top: 5rem;
         width: auto;
     }
+}
+@media (max-width: 470px){
+    .carrosel{
+        background-size: 100vh;
+    }   
 }
