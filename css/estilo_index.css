@@ -26,14 +26,30 @@ a {
     align-self: center;
     width: 100%;
     height: 350px;
-    overflow: hidden;
-    background-image: url('../img/img-ministerio/imagem-ministerio-001.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    animation: carrosel 10s infinite ease-in-out;
     
 }
-
+.carrosel ul{
+    padding: 0;
+    display: flex;
+    list-style: none;
+    width: 100%;
+    height: 100%; 
+    
+}
+.carrosel img{
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+}
+.carrosel li{
+    background-image: url(../img/img-ministerio/imagem-ministerio-001.jpg);
+    margin: 0;
+    position: relative;
+}
 .header-titulo{
     display: grid;
     grid-column: 1;
@@ -43,7 +59,7 @@ a {
     border-radius: 25px;
     height: 200px;
     width: 90%;
-    background-color: #ffffff30;
+    background-color: #ffffff10;
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
 }
@@ -144,9 +160,12 @@ footer{
     .header-titulo h1{
         font-size: 26pt;
     }
-    .carrosel-item-02{
-        background-size: 100%;
-    }
+    /* .carrosel img{
+        width: 100vw;
+        height: 100%;
+        margin: 0;
+        object-fit: cover;
+    } */
     h2{
         font-size: 20pt;
     }
